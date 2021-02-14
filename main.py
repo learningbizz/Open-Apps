@@ -9,7 +9,7 @@ def main():
   args = sys.argv[1:]
   
   if not args:
-    print('Add an existing preset')
+    print('Add an existing preset, like "programming"')
     sys.exit(1)
   
   if args[0] == "programming":
