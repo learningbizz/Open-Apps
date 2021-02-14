@@ -14,13 +14,14 @@ def programming_preset():
     dictionary["firefox"] = r"firefox"
     dictionary["terminal"] = r'gnome-terminal -- bash -c "cd /home/manuel/Desktop/Python/; ls; exec bash"'
     dictionary["vscode"] = r'code /home/manuel/Desktop/Python'
-    dictionary["spotify"] = r'Spotify'
+    dictionary["spotify"] = r'/usr/bin/spotify &'
 
     for item in dictionary:
         arguments = shlex.split(dictionary[item])
         subprocess.Popen(arguments)
 
-    #sys.exit(1)
+
+    
 
     
 
