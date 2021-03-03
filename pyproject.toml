@@ -2,7 +2,7 @@
 name = "open-apps"
 version = "0.1.0"
 description = "A way to open a group of apps in my Linux VM"
-authors = Learningbizz
+authors = ["Learningbizz"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
