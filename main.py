@@ -3,7 +3,7 @@
 
 import sys
 import subprocess
-from program_preset import programming_preset
+from programming_preset import python, front
 
 def main():
   args = sys.argv[1:]
@@ -11,9 +11,12 @@ def main():
   if not args:
     print('Add an existing preset, like "programming"')
     sys.exit(1)
-  
-  if args[0] == "programming":
-    programming_preset()
+
+  #Remember when adding a preset, add it in the bashrc or the zshrc depends what you use
+  if args[0] == "python":
+    python()
+  elif args[0] == "front":
+    front()
 
 if __name__ == '__main__':
   main()
