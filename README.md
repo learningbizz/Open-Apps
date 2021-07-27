@@ -20,4 +20,4 @@ For example, for programming, I created a preset that opens:
 
 If you want to make it so you can execute this in any directory and with only one word, **create an alias for it**  
 
-If you want to make the alias **permanent** --> Edit the bash_aliases or bashrc doc in ~/.
+If you want to make the alias **permanent** --> Edit the bash_aliases or .bashrc doc in ~/ if you use a bash, else edit the .zshrc file if you use ZSH bash.
